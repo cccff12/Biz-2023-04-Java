@@ -1,0 +1,8 @@
+package hello_01;
+
+public class test {
+	public static void main(String[] args) {
+		System.out.print(20*22*25*26);
+		
+	}
+}

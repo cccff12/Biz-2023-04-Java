@@ -1,0 +1,8 @@
+package hello_01;
+
+// This us class Block
+public class Hello00 {
+	public static void main(String[] args) {
+	    System.out.println("Hello Korea");
+	}
+}

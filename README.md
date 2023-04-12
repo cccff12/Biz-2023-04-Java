@@ -33,6 +33,6 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M master
-git remote add origin https://github.com/cccff12/Biz-2023-04-java.git
+git remote add origin https://github.com/cccff12/Biz-2023-04-Java.git
 git push -u origin master
 ```
