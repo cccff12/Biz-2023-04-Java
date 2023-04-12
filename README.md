@@ -7,17 +7,21 @@
 ## git repository 생성
 1. 새로운 컴퓨터에서 최초로 github 를 사용하고자 할때 설정
 
-2. 새로운 원격 repository를 생성하고, local Repository 생성하기 : `git init`
 ```bash
 git config --global user.name cccff12
 git config --global user.email ksun0430@naver.com
 ```
 
+2. 새로운 원격 repository를 생성하고, local Repository 생성하기 : `git init`
+
+
 ```bash
 git init
 ```
-3. Repository에 대한 설명을 하기 위하여 README.md 파일 생성하기
-4. 원격 repository 별명 설정하기 : `git remote add origin https://github.com/cccff12/Biz-2023-04-java.git`
+3. Repository에 대한 설명을 하기 위하여 README.md 파일생성하기
+
+4. 원격 repository 별명 설정하기 : 
+`git remote add origin https://github.com/cccff12/Biz-2023-04-java.git`
 
 ### 기존의 repository에 계속해서 update 하고자 할때
  
@@ -31,6 +35,6 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M master
-git remote add origin https://github.com/cccff12/Biz-2023-04-Java
+git remote add origin https://github.com/cccff12/Biz-2023-04-Javagit
 git push -u origin master
 ```
