@@ -11,7 +11,6 @@
 ```bash
 git config --global user.name cccff12
 git config --global user.email ksun0430@naver.com
-	
 ```
 
 ```bash
@@ -28,7 +27,6 @@ git init
 master`
 
 ```bash
-
 git init
 git add README.md
 git commit -m "first commit"
